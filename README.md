@@ -3,10 +3,13 @@
 Backend Setup
 Use an IDE of your choice (like Eclipse or IntelliJ IDEA) and simply launch the application.
 Alternatively, if you do not have an IDE, you can run it through terminal being inside the folder that contains pom.xml file:
+
 # Compile the application
+
 mvn clean install
 
 # Run the application
+
 mvn spring-boot:run
 Databases Setup - Desktop Docker
 Once desktop docker is active and running, paste the two following commands in the terminal (Do not forget to change password and username or just use defaults (username root, password YOUR-PASSWORD-GOES-HERE, http://localhost:8081))
